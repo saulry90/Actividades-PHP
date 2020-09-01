@@ -15,5 +15,6 @@
     echo "<p>La cantidad de litros de combustible que consumió durante ese recorrido es ".$combustiblelitros." Litros.</p>";
     echo "<p>El consumo de combustible por kilómetro es ".$consumo." L/KM.</p>";
     ?>
+    
 </body>
 </html>
