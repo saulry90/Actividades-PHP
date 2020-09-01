@@ -17,5 +17,6 @@
     echo "<p>El resultado es ".($num1*$num2)."</p>"; // multiplicación
     echo "<p>El resultado es ".($num1-$num2)."</p>"; // resta
     ?>
+    
 </body>
 </html>
