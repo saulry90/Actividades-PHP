@@ -10,8 +10,15 @@
     <?php
     $n1=5;
     $n2=68;
+    echo "<p>PARES:</p>";
     for ($i=$n1;$i<=$n2;$i++) {
         if ($i%2==0) {
+            echo "·".$i." ";
+        }
+    }
+    echo "<p>IMPARES:</p>";
+    for ($i=$n1;$i<=$n2;$i++) {
+        if ($i%2!=0) {
             echo "·".$i." ";
         }
     }
