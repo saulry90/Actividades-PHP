@@ -8,14 +8,25 @@
 <body>
     <h1>Actividad 2-3</h1>
     <?php
-    $culpable=1;
+    $culpable="no";
+    echo "<p>La documentación por favor</p>";
+    switch ($culpable) {
+        case 'si':
+            echo "<p>- irás a la cárcel -</p>";
+            break;
+        
+        default:
+            echo "<p>- irás a casa -</p>";
+            break;
+    }
+    /* $culpable=1;
     echo "<p>La documentación por favor</p>";
     if ($culpable==true) {
         echo "<p>irás a la cárcel</p>";
     }
     else {
         echo "<p>irás a casa</p>";
-    }
+    } */
     ?>
     
 </body>
