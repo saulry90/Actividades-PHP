@@ -1,22 +1,9 @@
-ACTIVIDADES ADICIONALES 01/09/2020
 1.- Crear un programa que introduzca en una variable la cantidad de kilómetros recorridos por una motocicleta y  en otra la cantidad de litros de combustible que consumió durante ese recorrido. Mostrar el consumo de combustible por kilómetro.
-
-Se llamará act1adi1.php
 
 2.-Crear un programa que introduzca de una temperatura en escala Fahrenheit  y le muestre el equivalente en grados Celsius. La fórmula de conversión que se usa para este cálculo es: _Celsius = (5/9) * (Fahrenheit-32)_
 
-Se llamará act2adi1.php
-
 3.-Crear un programa que recoja tres números en variables para luego mostrarle el promedio de los tres
-
-Se llamará act3adi1.php
 
 4.-Crear un programa que realice la división de dos números y redondee el resultado a la baja y a la alta (utilizar funciones matemáticas)
 
-Se llamará act4adi1.php
-
 5.-Crear un programa que nos calcule el área y el perímetro de un circulo (utilizar PI en funciones matemáticas)
-
-Se llamará act5adi1.php
-
-Todo se entrgará en un .rar con el nombre nombreAlumno_act1adicionales

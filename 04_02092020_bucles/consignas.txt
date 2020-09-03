@@ -1,0 +1,15 @@
+Actividad 3-1 (Jugando con bucles)
+Imprime los números del 1 al 10.
+Imprime los números de 60 al 70.
+Imprime los números del 20 al 1.
+Imprime la tabla del 5 con este formato: 5 x 3 = 15
+Suma los números del 1 al 100.
+
+Actividad 3-2
+Escriba un programa que con dos números enteros y escriba qué números son pares y cuáles impares desde el primero hasta el segundo.
+
+Actividad 3-3
+Escriba un programa que coja un número entero mayor que cero y que escriba sus divisores.
+
+Actividades 3-4
+Escriba un programa que coja un número entero mayor que 1 y que escriba si el número es un número primo o no.

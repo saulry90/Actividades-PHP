@@ -1,18 +1,17 @@
-ACTIVIDADES 01/09/2020
 Actividad 1-1 (Calculando)
 Realiza una sencilla calculadora.
 Pon en una variable un número.
 Pon en otra variable un número.
 Suma y muestra el resultado.
 Realiza otras operaciones (Restar, dividir…).
-GUARDAR CON EL NOMBRE ACT11.php
+
 Actividad 1-2 (Meeting)
 Guarda en una variable el nombre de una chica/o.
 Guarda en otra variable el nombre de una chica/o.
 Muestra la frase> “A {chico/a} le gusta { chico/a }.”
 Por ejemplo: A Sonia le gusta Roberto.
 Guarda en dos variables un nombre y un año de nacimiento. Muestra la siguiente frase calculando la edad: “Me llamo {nombre} y nací el {año de nacimiento}. Por lo tanto tengo 23.”
-GUARDAR CON EL NOMBRE ACT12.php
+
 Actividad 1-3 (Impuestos)
 Guarda un número.
 Calcula el IVA de esa cifra.
@@ -20,5 +19,3 @@ Muestra la misma cifra con IVA añadido.
 Pista: Para calcular el IVA debes aplicar la siguiente formula precio * 1.21.
 Muestra además la cifra sin iva.
 ¡Se creativo! Formatea el resultado de forma atractiva.
-GUARDAR CON EL NOMBRE ACT13.php
-Todo se deberá subir en un .rar con el nombre : nombreAlumno_actividades1
