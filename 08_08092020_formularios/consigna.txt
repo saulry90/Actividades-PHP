@@ -1,0 +1,32 @@
+Actividad 8-1 Portero de discoteca
+Pide el año de nacimiento.
+Calcula la edad.
+Si es mayor de edad, dile que puede pasar dentro.
+Si es menor, tírale.
+Si tiene más de 65 años, dile que es demasiado mayor para entrar.
+Pide además el día y el mes de nacimiento para saber si ha cumplido el año actual.
+Guardar como formulario81.html y como formulario81.php
+
+Actividad 8-2 (Contacto fraudulento)
+Realiza un formulario con los siguientes datos: nombre, telefono, email y mensaje.
+Cuando se pulse en enviar debe mostrar la siguiente plantilla.
+“Hola nombre!
+Te voy a enviar spam a correo y te llamaré por la madrugada a telefono.
+mensaje
+Enviado desde un iPhone”
+Guardar como formulario82.html y como formulario82.php
+
+Actividad 8-3 (Cueva de Gollum)
+Muestra la siguiente adivinanza:
+“Esta cosa se devora a todas las cosas;
+Pájaros, bestias, árboles, flores;
+Carcome el hierro, muerde el acero;
+Muele duras piedras y las reduce a harina;
+Mata al rey, arruina la ciudad,
+Y derriba a la montaña.”
+En un input, pide la respuesta.
+Añade un botón de submit.
+Si se pulsa el botón debes comprobar si ha acertado. La respuesta es: Tiempo.
+Si acierta felicítale.
+Si pierde, muestra la respuesta y cómetelo.
+Guardar como formulario83.html y como formulario83.php

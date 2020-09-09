@@ -1,0 +1,29 @@
+(Nos vamos de viaje)
+
+Guarda en un array los nombres unos amigos.
+Imprime la siguiente frase: “{amigo 1} se va de viaje”.
+Crea otro array con el nombre de varias ciudades.
+Imprime la siguiente frase: “{amigo 2} se va de viaje a {ciudad 1}”
+Imprime aleatoriamente el nombre de un amigo.
+Pista $amigos[array_rand($amigos)]
+
+Aleatoriamente busca dos nombre y una ciudad para generar la siguiente frase: “{amigo aleatorio} se va de viaje con {amigo aleatorio} a la bonita ciudad de {ciudad aleatoria}.
+GUARDAR EJERCICIO EN act41.php
+(Censo de población)
+
+Crea un diccionario con el censo de población de: España, Portugal, Francia, Italia y Grecia. Ayudate de Wikipedia.
+Ordena de mayor a menor.
+
+Muestra por pantalla
+
+GUARDAR EJERCICIO EN act42.php
+
+(Lista de películas)
+
+Guarda en un array tus 6 películas favoritas.
+Imprime en párrafos con el siguiente formato: ‘Película: Los Vengadores’ .Añade la posición de la película: ‘Película 4: Godzilla’
+
+GUARDAR EJERCICIO EN act43.php
+ Escriba un programa que muestre una tirada de un número de dados al azar entre 2 y 7 dados e indique los valores.
+
+GUARDAR EJERCICIO EN act44.php

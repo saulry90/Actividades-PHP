@@ -17,7 +17,7 @@
     $numero=array(); 
     for($i=1;$i<=5;$i++){
         $num_aleatorio=rand(1,100);
-        array_push($numero,$num_aleatorio);
+        $numero[]=$num_aleatorio;
         echo "·".$num_aleatorio;
         $media=(array_sum($numero))/count($numero);
     }
