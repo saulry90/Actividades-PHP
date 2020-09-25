@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+				form{
+					width: 50%;
+					float: left;
+				}
+			</style>
+		</head>
+		<body>
+		<form action="registro.php" method="post">
+			<fieldset>
+				<legend>Registro nuevo user</legend>
+				<label>Username </label><input type="text" name="user"><br>
+				<label>Password </label><input type="password" name="password"><br>
+				<label>Correo </label><input type="mail" name="correo"><br>
+				<input type="submit" name="validar" value="validar">
+			</fieldset>
+		</form>
+		<form action="iniciosesion.php" method="post">
+			<fieldset>
+				<legend>Inicio de sesión</legend>
+				<label>Username </label><input type="text" name="username"><br>
+				<label>Password </label><input type="password" name="userpassword"><br>
+				<input type="submit" name="validar" value="validar">
+			</fieldset>
+		</form>
+		</body>	
+	</html>

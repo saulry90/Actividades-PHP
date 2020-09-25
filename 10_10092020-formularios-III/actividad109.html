@@ -1,0 +1,28 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+	<form action="actividad109.php" method="post">
+	<h1> Academia </h1>
+	<h4> Gestión de alumnos </h4>
+	<h5>Alumnos en la base de datos:<br>Saúl | Pepe | Diana | Paca</h5>
+	<select name="opcion">
+		<option value="0"> Elige una opción </option>
+		<option value="1"> Alta alumno </option>
+		<option value="2"> Baja alumno </option>
+		<option value="3"> Modificación de nota de una asignatura </option>
+		<option value="4"> Media de la nota de un alumno </option>
+		<option value="5"> Mostrar la tabla de notas </option>
+	</select>
+	<br><br>
+	<label>Alumno</label><input type="text" name="alumno"><br>
+	<label>Nota Matemáticas Asignatura 1</label><input type="number" name="matematicas" min="0" max="10" value="0"><br>
+	<label>Nota Literatura Asignatura 2</label><input type="number" name="literatura" min="0" max="10" value="0"><br>
+	<label>Nota Física Asignatura 3</label><input type="number" name="fisica" min="0" max="10" value="0"><br>
+	<label>Nota Filosofía Asignatura 4</label><input type="number" name="filosofia" min="0" max="10"value="0"><br>
+	<label>Nota Informática Asignatura 5</label><input type="number" name="informatica" min="0" max="10"value="0"><br>
+	
+	<input type="submit" value="Enviar" name="enviar">
+  </form>
+ </body>
+</html>

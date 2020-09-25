@@ -1,0 +1,3 @@
+bicicleta,vehiculo sin motor de dos ruedas.
+coche,vehiculo a motor con 4 ruedas.
+moto,vehiculo a motor de dos ruedas.

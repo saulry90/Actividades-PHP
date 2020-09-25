@@ -1,0 +1,25 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<form action="act119.php" method="post">
+			<h1> Actividades de nuestro centro turístico </h1>
+			<h2>Rafting: 35€</h2>
+			<h2>Senderismo: 25€</h2>
+			<h2>Submarinismo: 50€</h2>
+			<h2><strong>Ingrese sus datos y haga su reserva!</strong></h2>
+			<label>Nombre de la persona</label><input type="text" name="nombre"><br>
+			<label>DNI</label><input type="text" name="dni"><br>
+			<label>Fecha</label><input type="date" name="fecha" max="2020-12-31"><br>
+			<label>Número de personas</label><input type="number" min="1" max="5" name="personas"><br>
+			<select name="opciones">
+				<option select hidden value="*">Elegir una actividad</option>
+				<option value="rafting" name="rafting">Rafting (35€)</option>
+				<option value="senderismo" name="senderismo">Senderismo (25€)</option>
+				<option value="submarinismo" name="submarinismo">Submarinismo (50€)</option>
+			</select><br>
+		
+			<input type="submit" value="Enviar" name="enviar">
+		  </form>
+		 </body>
+</html>

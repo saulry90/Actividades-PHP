@@ -1,0 +1,41 @@
+﻿
+ <!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<form action="gestion.php" method="post">
+			<h1> Gestión carta restaurante </h1>
+
+			<select name="opciones">
+				<option select hidden value="0">Elige una opción</option>
+				<option value="platoadd" name="platoadd">Añadir plato</option>
+				<option value="platomod" name="platomod">Modificar plato</option>
+				<option value="platodel" name="platodel">Eliminar plato</option>
+			</select><br>
+			<hr>
+			<h2><strong>Añadir plato</strong></h2>
+			<label>Nombre del nuevo plato</label><input type="text" name="nombreplato">
+			<label>Precio del nuevo  plato</label><input type="text" name="precioplato">
+			<label>Tipo de plato</label>
+			<select name="tipoadd">
+				<option select hidden value="0">Tipo de plato</option>
+				<option value="entrantes" name="entranteadd">Entrantes</option>
+				<option value="carnes" name="carneadd">Carnes</option>
+				<option value="pescados" name="pescadoadd">Pescados</option>
+				<option value="postres" name="postreadd">Postres</option>
+			</select>
+			<input type="submit" value="Añadir plato" name="addplato">
+			<hr>
+			<h2><strong>Modificar plato</strong></h2>
+			<label>Nombre del plato a modificar</label><input type="text" name="nombreplatomod">
+			<label>Precio nuevo del plato</label><input type="text" name="precioplatomod">
+			<input type="submit" value="Modificar plato" name="modplato">
+			<hr>
+			<h2><strong>Eliminar plato</strong></h2>
+			<label>Nombre del plato a eliminar</label><input type="text" name="nombreplatodel">
+			<input type="submit" value="Eliminar plato" name="delplato">
+			<hr>
+
+		  </form>
+		 </body>
+</html>

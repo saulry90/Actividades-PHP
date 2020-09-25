@@ -1,0 +1,3 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget augue odio. Aliquam dapibus dui ac lacinia feugiat. Sed viverra sit amet nulla ac tincidunt. Aenean elit ante, sagittis id finibus eget, gravida eu enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur varius fringilla neque vitae commodo. Morbi efficitur tincidunt orci, eu rutrum ligula gravida in. Morbi id nibh id orci tincidunt hendrerit.
+...Vamos a copiar este archivo...
+
