@@ -1,97 +1,63 @@
-<?php 
-$ntortilla=$_POST['ntortilla'];
-$ncalamares=$_POST['ncalamares'];
-$nchopitos=$_POST['nchopitos'];
-$nbravas=$_POST['nbravas'];
 
-$nentrecot=$_POST['nentrecot'];
-$nchuleton=$_POST['nchuleton'];
-
-$nsalmon=$_POST['nsalmon'];
-$nmerluza=$_POST['nmerluza'];
-
-$nflan=$_POST['nflan'];
-$nhelado=$_POST['nhelado'];
-
-
-
-$pedido=array(
-    "tortilla"=>[5,$ntortilla],
-    "calamares"=>[7,$ncalamares],
-    "chopitos"=>[8,$nchopitos],
-    "bravas"=>[3,$nbravas],
-    "entrecot"=>[17,$nentrecot],
-    "chuleton"=>[25,$nchuleton],
-    "salmon"=>[15,$nsalmon],
-    "merluza"=>[14,$nmerluza],
-    "flan"=>[2,$nflan],
-    "helado"=>[2,$nhelado],
-);
-
-
-$preciototal=0;
-
-if (isset($_POST["enviar"])&&!empty($ntortilla)||!empty($ncalamares)||!empty($nchopitos)||!empty($nbravas)||!empty($nentrecot)||!empty($nchuleton)||!empty($nsalmon)||!empty($nmerluza)||!empty($nflan)||!empty($nhelado)) 
-{
-    echo "<h1>Tu pedido:</h1>";
-    $fp=fopen("pedidos.txt","a+");
-    foreach ($pedido as $nplato => $preciocant) 
+<h2><strong>Realizar un pedido</strong></h2>
+<?php
+    $carta=array();
+    //leer el fichero y guardalo en un array
+    $fp=fopen("platoscarta.txt","r");
+    while(!feof($fp))
+            {
+                $platoscarta=fgets($fp);
+                $platoscarta=explode(",",trim($platoscarta));
+                array_push($carta,$platoscarta);
+            }
+    fclose($fp);
+    array_pop($carta); 
+    //print_r($carta);
+?>
+<form action="pedidosok.php" method="post">
+<?php
+    echo "<p></p><strong>Entrantes:</strong>";
+    foreach($carta as $plato=>$datos)
     {
-
-        if ($preciocant[1]!=0) 
+        if($datos[2] == "entrante")
         {
-    
-            $total=$preciocant[1]*$preciocant[0];
-            
-            echo $preciocant[1]." platos de ".$nplato."(".$preciocant[0]."€) que hace un total de ".$total."€<br>";
-            $preciototal+=$total;
-
+            $numero="n".$datos[0];
+            echo " <label>".$datos[0]."</label><input type='number'  min='0' max='20' value='0' name='$numero'>";
+        }
+    }  
+    echo "<p></p><strong>Carnes:</strong>";
+    foreach($carta as $plato=>$datos)
+    {
+        if($datos[2] == "carne")
+        {
+            $numero="n".$datos[0];
+            echo " <label>".$datos[0]."</label><input type='number'  min='0' max='20' value='0' name='$numero'>";
         }
     }
-    echo "<p>El precio total del pedido es de ".$preciototal."€</p>";
-    fwrite($fp,"total del pedido,");
-    fwrite($fp,$preciototal);
-    fwrite($fp,PHP_EOL);
-    fclose($fp);
-    ?>
-    <form action="cierre.php" method="post">
-    <input type="submit" value="Cerrar pedido" name="enviar">
-    </form>
-
-    <?php 
-
-/*     $fp=fopen("pedidos.txt","r");
-    while(!feof($fp))
-			{
-				$totalpedido=fgets($fp);
-				echo $totalpedido."<br>";
-			} */
-
-
-}
-else 
-{
-    echo "Debe pedir al menos un plato";
-}
-
-
-
-/* if ($ntortilla=="ja") 
+    echo "<p></p><strong>Pescados:</strong>";
+    foreach($carta as $plato=>$datos)
     {
-        echo "Hola";
-    }
-    else 
+        if($datos[2] == "pescado")
+        {
+            $numero="n".$datos[0];
+            echo " <label>".$datos[0]."</label><input type='number'  min='0' max='20' value='0' name='$numero'>";
+        }
+    }   
+    echo "<p></p><strong>Postres:</strong>";
+    foreach($carta as $plato=>$datos)
     {
-        echo "na";
-    } */
+        if($datos[2] == "postre")
+        {
+            $numero="n".$datos[0];
+            $numero=str_replace(' ', '', $numero);
+            echo " <label>".$datos[0]."</label><input type='number'  min='0' max='20' value='0' name='$numero'>";
+        }
+    }    
+ 
+?>
+ <p><input type="submit" value="Realizar el pedido" name="enviar"></p>
+</form>
+<?php
 
-
-
-
-
-
-
-
-
-
+//echo $numero;
 ?>

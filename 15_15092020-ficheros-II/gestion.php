@@ -53,14 +53,6 @@ if (!empty($opciones))
 				 echo "</p>";
 			}
 			fclose($fp);
-			/* for ($i=0; $i <count($carta) ; $i++) 
-			{ 
-				fwrite($fp,implode(",",$carta[$i]));
-			} */
-			//fwrite($fp,implode(",",$carta));
-			
-		
-			
 		}
 		else 
 		{
