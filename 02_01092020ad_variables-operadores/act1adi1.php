@@ -1,3 +1,4 @@
+<!-- 1.- Crear un programa que introduzca en una variable la cantidad de kilómetros recorridos por una motocicleta y  en otra la cantidad de litros de combustible que consumió durante ese recorrido. Mostrar el consumo de combustible por kilómetro. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,4 @@
+<!-- 2.-Crear un programa que introduzca de una temperatura en escala Fahrenheit  y le muestre el equivalente en grados Celsius. La fórmula de conversión que se usa para este cálculo es: _Celsius = (5/9) * (Fahrenheit-32)_ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,10 @@
+<!-- Actividad 2-3
+Escribe un programa que recoga en una variable si es culpable o no. Asumiremos que:
+En caso afirmativo el usuario responderá si
+En caso contrario responderá no.
+Si el usuario responde si se escribirá por el documento «irás a la cárcel».
+Si el usuario responde no se escribirá por el documento web «irás a casa».
+En cualquier caso en el documento web se escribirá «la documentación por favor». -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,14 +26,6 @@
             echo "<p>- irás a casa -</p>";
             break;
     }
-    /* $culpable=1;
-    echo "<p>La documentación por favor</p>";
-    if ($culpable==true) {
-        echo "<p>irás a la cárcel</p>";
-    }
-    else {
-        echo "<p>irás a casa</p>";
-    } */
     ?>
     
 </body>

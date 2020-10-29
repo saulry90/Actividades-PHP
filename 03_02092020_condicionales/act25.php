@@ -1,4 +1,13 @@
-<!DOCTYPE html>
+<!-- Actividad 2-5
+Escribe un programa ayude a una empresa a incrementar los salarios de los trabajadores de la siguiente manera:
+Tipo de salario %
+De 0 a 500€ 20%
+De 501€ a 1000€ 10%
+De 1001€ a 1500€ 5%
+Más de 1500€ 3%
+Sacar por pantalla el sueldo con incremento que hemos recogido en una variable
+ -->
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

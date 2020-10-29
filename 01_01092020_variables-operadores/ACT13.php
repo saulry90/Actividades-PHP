@@ -1,3 +1,10 @@
+<!-- Actividad 1-3 (Impuestos)
+Guarda un número.
+Calcula el IVA de esa cifra.
+Muestra la misma cifra con IVA añadido.
+Pista: Para calcular el IVA debes aplicar la siguiente formula precio * 1.21.
+Muestra además la cifra sin iva.
+¡Se creativo! Formatea el resultado de forma atractiva. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

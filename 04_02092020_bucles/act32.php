@@ -1,3 +1,6 @@
+<!-- Actividad 3-2
+Escriba un programa que con dos números enteros y escriba qué números son pares y cuáles impares desde el primero hasta el segundo.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

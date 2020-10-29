@@ -1,3 +1,10 @@
+<!-- Actividad 3-1 (Jugando con bucles)
+Imprime los números del 1 al 10.
+Imprime los números de 60 al 70.
+Imprime los números del 20 al 1.
+Imprime la tabla del 5 con este formato: 5 x 3 = 15
+Suma los números del 1 al 100.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

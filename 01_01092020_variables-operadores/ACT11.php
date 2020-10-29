@@ -1,3 +1,9 @@
+<!-- Actividad 1-1 (Calculando)
+Realiza una sencilla calculadora.
+Pon en una variable un número.
+Pon en otra variable un número.
+Suma y muestra el resultado.
+Realiza otras operaciones (Restar, dividir…). -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

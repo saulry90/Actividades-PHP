@@ -1,3 +1,5 @@
+<!-- Escriba un programa que muestre una tirada de un número de dados al azar entre 2 y 7 dados e indique los valores.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,14 +18,6 @@
         $tirada[$i]=$valortirada;
         echo "<p>Ha salido un - ".$valortirada." -</p>";
     }
-
-
-
-
-
-
-
-
     ?>
     
 </body>

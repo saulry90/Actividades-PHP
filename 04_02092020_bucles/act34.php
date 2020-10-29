@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!-- Actividades 3-4
+Escriba un programa que coja un número entero mayor que 1 y que escriba si el número es un número primo o no.
+ -->
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

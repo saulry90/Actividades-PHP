@@ -1,3 +1,6 @@
+<!-- Actividad 3-3
+Escriba un programa que coja un número entero mayor que cero y que escriba sus divisores.
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

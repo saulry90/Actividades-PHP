@@ -1,3 +1,9 @@
+<!-- Actividad 1-2 (Meeting)
+Guarda en una variable el nombre de una chica/o.
+Guarda en otra variable el nombre de una chica/o.
+Muestra la frase> “A {chico/a} le gusta { chico/a }.”
+Por ejemplo: A Sonia le gusta Roberto.
+Guarda en dos variables un nombre y un año de nacimiento. Muestra la siguiente frase calculando la edad: “Me llamo {nombre} y nací el {año de nacimiento}. Por lo tanto tengo 23.” -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

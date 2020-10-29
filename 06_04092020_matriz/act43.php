@@ -1,3 +1,8 @@
+<!-- (Lista de películas)
+
+Guarda en un array tus 6 películas favoritas.
+Imprime en párrafos con el siguiente formato: ‘Película: Los Vengadores’ .Añade la posición de la película: ‘Película 4: Godzilla’
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

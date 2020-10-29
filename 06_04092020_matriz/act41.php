@@ -1,3 +1,14 @@
+<!-- (Nos vamos de viaje)
+
+Guarda en un array los nombres unos amigos.
+Imprime la siguiente frase: “{amigo 1} se va de viaje”.
+Crea otro array con el nombre de varias ciudades.
+Imprime la siguiente frase: “{amigo 2} se va de viaje a {ciudad 1}”
+Imprime aleatoriamente el nombre de un amigo.
+Pista $amigos[array_rand($amigos)]
+
+Aleatoriamente busca dos nombre y una ciudad para generar la siguiente frase: “{amigo aleatorio} se va de viaje con {amigo aleatorio} a la bonita ciudad de {ciudad aleatoria}. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

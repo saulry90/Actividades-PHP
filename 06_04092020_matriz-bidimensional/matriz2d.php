@@ -1,3 +1,14 @@
+<!-- Crear una matriz bidimensional donde las filas son los alumnos y las columnas son las notas de las asignaturas
+
+Serán 4 alumnos con 6 asignaturas.
+
+Mostrar por pantalla:
+Matriz completa
+Media de notas por alumno
+Media de notas por asignatura
+Indicar el alumno con la media mas alta y mas baja ( su numero de fila)
+Indicar la asignatura con la media mas alta y mas baja ( su numero de columna)
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

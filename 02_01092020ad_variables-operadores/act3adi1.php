@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!-- 3.-Crear un programa que recoja tres números en variables para luego mostrarle el promedio de los tres
+ --><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

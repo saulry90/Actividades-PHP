@@ -1,0 +1,5 @@
+una academia coloca a sus alumnos según la edad, 
+si tienen de 0-3 son pre, 
+de 6-12 son cole, 
+de 13-17 son insti y a partir de 18 son uni. 
+Recoger por un formulario los datos del alumno: nombre, teléfono, mail y edad, sacar por pantalla los datos y según la edad en que grupo esta.

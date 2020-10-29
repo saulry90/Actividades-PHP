@@ -1,3 +1,9 @@
+<!-- Actividad 2-2 (Portero de discoteca automático)
+Recoge el año de nacimiento.
+Calcula la edad.
+Si es mayor de edad, dile que puede pasar dentro.
+Si es menor, tírale.
+Si tiene más de 65 años, dile que es demasiado mayor para entrar. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

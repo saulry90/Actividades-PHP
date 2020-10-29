@@ -1,0 +1,8 @@
+Actividad 8-2 (Contacto fraudulento)
+Realiza un formulario con los siguientes datos: nombre, telefono, email y mensaje.
+Cuando se pulse en enviar debe mostrar la siguiente plantilla.
+“Hola nombre!
+Te voy a enviar spam a correo y te llamaré por la madrugada a telefono.
+mensaje
+Enviado desde un iPhone”
+Guardar como formulario82.html y como formulario82.php
